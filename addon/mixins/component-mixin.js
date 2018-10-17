@@ -1,10 +1,10 @@
-/* global require */
-
 import { computed, defineProperty } from '@ember/object';
 import Mixin from '@ember/object/mixin';
 import { dasherize } from '@ember/string';
 import { getOwner } from '@ember/application';
 import { assert } from '@ember/debug';
+import require from 'require';
+
 
 export default Mixin.create({
   localClassNames: null,
